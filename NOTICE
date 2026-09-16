@@ -1,0 +1,12 @@
+JSP-000572 Lean formalization
+
+The Lean formalization was completed jointly by cyj-hashtag (GitHub:
+cyj-hashtag) and ChatGPT 6 Astra.
+
+Mathematical theorem and original proof route:
+Peter Frankl, "On families of finite sets no two of which intersect in a
+singleton", Bulletin of the Australian Mathematical Society 17 (1977),
+125-134, https://doi.org/10.1017/S0004972700025521.
+
+This package claims formalization work only and does not claim discovery of
+the underlying mathematical result.

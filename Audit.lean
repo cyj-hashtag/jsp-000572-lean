@@ -1,0 +1,6 @@
+import Problem572
+
+#print Problem572.erdos_sos_singleton_intersection
+#print axioms Problem572.erdos_sos_singleton_intersection
+#print axioms Problem572.singleton_free_bound
+#print axioms Problem572.fixed_pair_sharpness

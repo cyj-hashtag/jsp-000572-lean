@@ -1,0 +1,14 @@
+name = "problem572"
+version = "0.1.0"
+defaultTargets = ["Problem572"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "c211948581bde9846a99e32d97a03f0d5307c31e"
+
+[[lean_lib]]
+name = "Problem572"
