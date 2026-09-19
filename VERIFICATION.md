@@ -51,12 +51,9 @@ The designated verifier is requested to:
 3. compare the theorem with the 1977 source as documented in `STATEMENT.md`;
 4. review the definitions for vacuity and confirm that `Finset` cardinalities
    encode the intended finite-set statement;
-5. confirm priority and attribution for the disclosed joint formalization;
-6. determine whether this package belongs at the proposed `submissions/`
-   path or should be moved to another official intake location; and
-7. clarify the applicable formalizer allocation for a problem solved before
-   its addition to the registry, given Selection Rules section 5 and the
-   founder's public letter.
+5. confirm attribution for the disclosed joint formalization; and
+6. assess the formalization contribution under the Prize Operator's current
+   rules, including the disclosed related public formalizations.
 
 No candidate record, catalog eligibility flag, award tier, claimant status,
 or payment entitlement is asserted by this submission.

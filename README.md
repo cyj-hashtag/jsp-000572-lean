@@ -82,11 +82,9 @@ additional mathematical axiom and contains no `sorry`, `admit`, or
 The original paper is cited by DOI rather than redistributed:
 <https://doi.org/10.1017/S0004972700025521>.
 
-The Lean source and verification scripts in this directory are offered under
-the MIT License in [LICENSE](LICENSE). Submission prose follows the parent
-repository's content licensing terms. See [NOTICE](NOTICE) for attribution.
+The Lean source, verification scripts, and documentation in this repository
+are offered under the MIT License in [LICENSE](LICENSE). See [NOTICE](NOTICE)
+for attribution.
 
-`submissions/jsp-000572-cyj-hashtag/` is used as a proposed intake location
-because the official repository does not currently publish a dedicated Lean
-submission directory or template. Maintainers may relocate the package while
-preserving its contents and history.
+This repository is the original public source package submitted for review in
+[TheJustinSunPrize/awards PR #79](https://github.com/TheJustinSunPrize/awards/pull/79).
