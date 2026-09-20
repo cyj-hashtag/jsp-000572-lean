@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project": {
+    "root": ".",
+    "repository": "https://github.com/cyj-hashtag/jsp-000572-lean",
+    "commit": "527bfcac522f9edf120301f63a0c7672d691f651",
+    "toolchain": "leanprover/lean4:v4.20.0"
+  },
+  "problems": [
+    {
+      "id": "JSP-000572",
+      "source": "https://www.erdosproblems.com/702 and https://doi.org/10.1017/S0004972700025521",
+      "requirements": [
+        {
+          "id": "general-k",
+          "description": "For every natural k at least 4.",
+          "targets": ["main", "bridge"],
+          "coverage": "full"
+        },
+        {
+          "id": "eventual-n",
+          "description": "There is a threshold depending only on k, and the conclusion holds for every n at or above it.",
+          "targets": ["main", "bridge"],
+          "coverage": "full"
+        },
+        {
+          "id": "uniform-family",
+          "description": "F is a finite family of distinct k-subsets of an n-element ground set.",
+          "targets": ["main", "bridge"],
+          "coverage": "full"
+        },
+        {
+          "id": "strict-bound",
+          "description": "The family has cardinality strictly greater than choose(n-2,k-2).",
+          "targets": ["main", "bridge"],
+          "coverage": "full"
+        },
+        {
+          "id": "singleton-intersection",
+          "description": "There are two distinct members of F whose intersection has cardinality exactly one.",
+          "targets": ["main", "bridge"],
+          "coverage": "full"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "main",
+      "problem": "JSP-000572",
+      "role": "theorem",
+      "module": "Problem572.Main",
+      "source": "Problem572/Main.lean",
+      "declaration": "Problem572.erdos_sos_singleton_intersection"
+    },
+    {
+      "id": "bridge",
+      "problem": "JSP-000572",
+      "role": "bridge",
+      "module": "Problem572.AuditBridge",
+      "source": "Problem572/AuditBridge.lean",
+      "declaration": "AuditBridge.intended"
+    }
+  ]
+}
